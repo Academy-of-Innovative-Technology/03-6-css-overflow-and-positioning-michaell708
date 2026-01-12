@@ -15,10 +15,21 @@ html {
 }
 
 /* create overflow classes and all other CSS below here */
+.overflow-auto {
+overflow: auto;
+}
 
+.overflow-show {
+overflow: show;
+}
 
+.overflow-hidden {
+overflow: hidden;
+}
 
-
+.overflow-scroll {
+overflow: scroll;
+}
 
 /* code for positioning code-along */
 .one, .two, .three, .four{
@@ -43,23 +54,26 @@ html {
 .one{
     border: red solid 2px;
     /*Code for Step 2*/
-
-
+    position: static;
+   left: 10px;
 }
 .two{
     border: yellow solid 2px;
     /*Code for Step 3*/
-
+    position: absolute;
+    left: 100px;
 
 }
 .three{
     border: blue solid 2px;
     /*Code for Step 4*/
-
+    position: fixed;
+    left: 200px;
 
 }
 .four{
     border: orange solid 2px;
     /*Code for Step 5*/
-  
+  position: relative;
+  left: 60px;
 }
